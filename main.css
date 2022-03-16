@@ -367,15 +367,28 @@ hr {
 
 }
 
+@media screen and (max-width: 346px) {
+    .skill {
+        min-width: 64px;
+        margin: 2px;
+    }
+    .home-container1 {
+        height: 900px;
+    }
+    .home-container2{
+        height: 600px;
+    }
+    .home-container3 {
+        min-height: 800px;
+      }
+      
+}
+
+
 @media screen and (max-width: 333px) {
     .bg-head {
         height: 700px;
 
-}
-
-.skill {
-    min-width: 64px;
-    margin: 2px;
 }
 
 .home-container2{
@@ -390,15 +403,7 @@ left: 50%;
 transform: translate(-50%, 100%);
 }
 
-.home-container1 {
-    height: 900px;
-}
-.home-container2{
-    height: 600px;
-}
-.home-container3 {
-    min-height: 800px;
-  }
+
 }
 
 
