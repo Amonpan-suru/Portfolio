@@ -1,0 +1,117 @@
+#game-container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#game-layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 3px solid rgb(14, 14, 14);
+    background-color: rgb(220, 220, 220);
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+
+.red{
+    background-color: rgb(255, 132, 132); 
+}
+.blue{
+    background-color: rgb(53, 178, 255); 
+}
+
+.green{
+    background-color: rgb(148, 230, 67); 
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+    font-family: 'Mali', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+fieldset {
+    width: 600px;
+    height: 120px;
+    margin: auto;
+    margin-top : 50px;
+    border-radius: 10px;
+}
+
+button, input, select, option{
+    font-family: 'Mali', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+}
+
+.header {
+    display: block;
+overflow: auto;
+    background-color: white;
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .icon{
+    margin-left: 32px;
+    width: 32px;
+}
+.icon-header{
+    padding: 20px 0;
+}
+.back{
+    margin-left: 32px;;
+    background-image: url(../pic/back.png);
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0em;
+    font-weight:500;
+    font-size: 18px;
+}
+
+a:link {
+    font-family: 'Poppins', sans-serif;
+    color: #4F4F4F;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    font-family: 'Poppins', sans-serif;
+    color: #4F4F4F;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    font-family: 'Poppins', sans-serif;
+    color: #4F4F4F;
+    text-decoration: none;
+  }
+  
+  a:active {
+    font-family: 'Poppins', sans-serif;
+    color: #4F4F4F;
+    text-decoration: none;
+  } 
+
+  .footer {
+    text-align: center;
+      padding: 20px 0;
+    background-color: white;
+}

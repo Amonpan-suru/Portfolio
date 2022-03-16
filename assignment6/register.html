@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Assisnment6</title>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,700;1,400&family=Prompt:wght@100&display=swap" rel="stylesheet">
+	<script src="register.js"></script>
+</head>
+<body>
+	<div class="header sticky">
+        <div class="icon-header">
+            <a href="../assignment.html">
+            <div class="back">
+            </div>
+            </a>
+        </div>
+</div>
+
+	<div class = "out">
+		<div class="in">
+	<form name="myForm" id="myForm" action="login.html">
+		
+		<fieldset>
+			<legend>Register</legend>
+			<span>* require</span> <br>
+			<span id="errormsg"></span> <br>
+			First name*: 
+			<input type="text" name="firstname" required pattern="[a-z]" title="input only charactor">
+			<br>
+			Last name*: 
+			<input type="text" name="lastname" required title="input only charactor">
+			<br>
+			Gender*: 
+			<input type="radio" name="gender" value="male" required>Male
+			<input type="radio" name="gender" value="female" required>Female
+			<input type="radio" name="gender" value="female" required>Other
+			<br>
+			Birthday*: 
+			<input type="date" name="bday" value="" required>
+			<br>
+			Email address*: 
+			<input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+			<br>
+			Username*: 
+			<input type="text" name="username" required>
+			<br>
+			Password*: 
+			<input type="password" name="password" required>
+			<br>
+			Retype Password*: 
+			<input type="password" name="rePassword" required>
+			<br>
+			<br>
+			<input type="submit" value="Register">
+			<input type="reset" value="Reset">
+		</fieldset>
+	</form>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(29, 29, 29);
+    font-family: 'Mali', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+}
+
+fieldset {
+    /* width: 600px;
+    margin: auto;
+    margin-top : 50px; */
+    border-radius: 10px;
+    background-color:rgb(65, 65, 65);
+}
+
+button, input, select, option{
+    font-family: 'Mali', cursive;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border-width: 0ch;
+    margin: 6px;
+}
+
+input[type=submit], input[type=reset]{
+    padding: 4px;
+    width: 120px;
+    background-color:rgb(115, 203, 72);
+    font-weight: bolder;
+}
+
+input[type=reset]{
+    background-color:rgb(240, 112, 112);
+    font-weight: bolder;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.out {
+    width: 900px;
+    margin: auto;
+    margin-top : 100px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.in {
+    width: 500px;
+    text-align: left;
+    margin: auto;
+    margin-top : 100px;
+
+}
+
+span {
+    color: red;
+}
+
+.header {
+    display: block;
+overflow: auto;
+    background-color: white;
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .icon{
+    margin-left: 32px;
+    width: 32px;
+}
+.icon-header{
+    padding: 20px 0;
+}
+.back{
+    margin-left: 32px;;
+    background-image: url(../pic/back.png);
+    height: 32px;
+    width: 32px;
+    background-size: cover;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0em;
+    font-weight:500;
+    font-size: 18px;
+}
+
+a:link {
+    font-family: 'Poppins', sans-serif;
+    color: #4F4F4F;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    font-family: 'Poppins', sans-serif;
+    color: #4F4F4F;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    font-family: 'Poppins', sans-serif;
+    color: #4F4F4F;
+    text-decoration: none;
+  }
+  
+  a:active {
+    font-family: 'Poppins', sans-serif;
+    color: #4F4F4F;
+    text-decoration: none;
+  } 
+
+  .footer {
+    text-align: center;
+      padding: 20px 0;
+    background-color: white;
+}
