@@ -177,6 +177,12 @@ hr {
     content: url("pic/Group25.png");
 }
 
+.facebook{
+    font-size: 18px;
+    font-family: 'Sarabun', sans-serif;
+    margin: 0;
+}
+
 .home-container {
     width: 100%;
     display: flex;
