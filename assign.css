@@ -1,5 +1,6 @@
 .bg{
     content: url("pic/Group30.png");
+    max-height: 250px;
 }
 
 body{
@@ -17,6 +18,10 @@ body{
 img {
     width: 100%;
     height :auto;
+}
+
+.resume{
+    width: 65%;
 }
 
 hr {
@@ -228,6 +233,9 @@ iframe {
     iframe {
         height : 206px;
     }
+    .resume{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 952px) {
@@ -240,6 +248,7 @@ iframe {
     iframe {
         height : 206px;
     }
+
 }
 
 @media screen and (max-width: 654px) {
@@ -269,6 +278,9 @@ iframe {
         margin:16px;
         margin-left: 0px;
         margin-right: 16px;
+    }
+    .resume{
+        width: 90%;
     }
 }
 

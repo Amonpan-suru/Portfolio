@@ -35,6 +35,44 @@ a {
     margin:32px;
 }
 
+.button {
+    background-color: #ffffff;
+    color: #4F4F4F;
+    padding: 15px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border: 1px solid #4F4F4F;
+    border-radius: 8px;
+}
+
+.button-port {
+    background-color: #4F4F4F;
+    padding: 15px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    border: 1px solid #4F4F4F;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+}
+
+.button:hover {
+    background-color: #d3d3d3; 
+    border: 1px solid #d3d3d3;
+  }
+
+.button-port:hover {
+    background-color: #2f2f2f; 
+    color: white;
+}
+
 a:link {
     font-family: 'Poppins', sans-serif;
     color: #4F4F4F;
@@ -55,7 +93,7 @@ a:link {
   
   a:active {
     font-family: 'Poppins', sans-serif;
-    color: #4F4F4F;
+    /* color: #4F4F4F; */
     text-decoration: none;
   } 
 
@@ -67,7 +105,7 @@ a:link {
 
 .center-left {
     position: absolute;
-    bottom: 30%;
+    bottom: 35%;
 }
 
 .center {
